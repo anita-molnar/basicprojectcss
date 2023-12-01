@@ -1,0 +1,99 @@
+a:link{
+  text-decoration: none;
+  color: white
+}
+
+a:visited {
+  color: orange;
+}
+
+a:hover {
+  color: yellow;
+}
+
+body {
+  background-color: rgb(84, 81, 81);
+  
+}
+
+.banner {
+  width: 100%;
+  height: 80pv;
+  position: relative;
+}
+
+.div-container{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.div-centered {
+  font-size: large;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.div-link{
+  color: orange;
+  display: flex;
+  justify-content: space-around;
+}
+
+.banner-title{
+  color: orange;
+  font-size: 80px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 200;
+  text-align: center;
+} 
+
+.study-title{
+  color: white;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+.study-box1{
+  width: 500px;
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+  vertical-align: top;
+}
+
+.study-box2{
+  width: 500px;
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+  vertical-align: top;
+}
+
+.testimonials {
+  background-color: rgb(111, 109, 109);
+  color: white;
+}
+
+h1 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+p {
+  font-size: 16px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center ;
+}
+
+.img-content {
+  width: 500px;
+}
+
